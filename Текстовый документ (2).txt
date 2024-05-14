@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31 SORT - Официальный сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>31 SORT</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О музыканте</a></li>
+                <li><a href="#music">Музыка</a></li>
+                <li><a href="#video">Видео</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <img src="images/photo_5296315110219965243_x.jpg" alt="31 SORT">
+        <p>Привет! Я 31 SORT. Добро пожаловать на мой официальный сайт. Здесь вы можете найти мою музыку, биографию и последние новости.</p>
+        <div class="socials">
+            <a href="https://www.instagram.com/31_sort">Instagram</a>
+            <a href="https://vk.com/only31">ВКонтакте</a>
+            <a href="https://t.me/LETMEup31">Telegram</a>
+        </div>
+    </section>
+    <section id="about">
+        <h2>О музыканте</h2>
+        <p>31 SORT (настоящее имя неизвестно) - российский музыкальный исполнитель, известный своим уникальным стилем и звучанием. Начал свою карьеру в (год начала карьеры), быстро завоевав популярность благодаря своим эмоционально насыщенным трекам и харизматичному выступлению.</p>
+        <p>Творческий путь: 31 SORT начал записывать музыку в (год). Его дебютный альбом (название альбома) был выпущен в (год) и получил положительные отзывы как от слушателей, так и от критиков. В своей музыке 31 SORT объединяет элементы (жанры музыки).</p>
+        <p>Достижения: Выпущено (количество альбомов) альбомов, (Количество) просмотров на YouTube, (Количество) прослушиваний на Apple Music и других стриминговых сервисах</p>
+    </section>
+    <section id="music">
+        <h2>Музыка</h2>
+        <ul>
+            <li><a href="https://music.apple.com/ru/artist/31-sort/1625303638">Apple Music</a></li>
+            <li><a href="https://music.youtube.com/channel/UCCjXLxSzFa2AvjCe5xFvhhA?si=B-OqdU-Foiuy6awZ">YouTube Music</a></li>
+            <li><a href="https://music.yandex.ru/artist/16733260?utm_medium=copy_link">Яндекс Музыка</a></li>
+        </ul>
+    </section>
+    <section id="video">
+        <h2>Видео</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Контакты</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 31 SORT. Все права защищены.</p>
+    </footer>
+</body>
+</html>
